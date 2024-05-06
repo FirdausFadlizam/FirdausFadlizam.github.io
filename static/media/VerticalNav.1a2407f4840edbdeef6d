@@ -1,0 +1,16 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+function VerticalNav() {
+  return (
+    <nav>
+      <ul>
+        <li><Link to="/about/background">Background</Link></li>
+        <li><Link to="/about/academic">Academic</Link></li>
+        <li><Link to="/about/career">Career</Link></li>
+      </ul>
+    </nav>
+  );
+}
+
+export default VerticalNav;
