@@ -55,7 +55,7 @@ nav ul li a:hover {
 footer {
   color: #fff;
   padding: 10px 0;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
 }
@@ -73,3 +73,45 @@ footer {
   width: 500px;
 }
 
+.nameText{
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.name{
+  color: #5AB2FF;
+  margin:0;
+  padding-top: 0;
+  padding-left: 100px;
+  font-size: 65px;
+}
+
+.shortBio{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconList{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.role{
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon:hover{
+  color:#5AB2FF;
+}

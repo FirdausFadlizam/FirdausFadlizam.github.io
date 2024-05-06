@@ -8,6 +8,10 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
+import Background from './Background';
+import Academic from './Academic';
+import Career from './Career';
+
 import './App.css';
 
 function App() {
@@ -20,6 +24,9 @@ function App() {
            <Route path="/about" element={<About />} />
            <Route path="/projects" element={<Projects />} />
            <Route path="/contact" element={<Contact />} />
+           <Route path="/background" element={<Background />} />
+           <Route path="/academic" element={<Academic />} />
+           <Route path="/career" element={<Career />} />
            </Routes>
         <Footer />
       </div>
