@@ -4,9 +4,10 @@ import React from 'react';
 
 function Home() {
   return (
-    <div>
-      <h1>Welcome to My Website</h1>
-      <p>This is the homepage of my personal website built with React.</p>
+    <div className="homeTab">
+      <div className="shortBio"><h1>ASPIRING SOFTWARE ENGINEER</h1>
+      <p>Embark with me on a journey towards developing beneficial apps that solve global crisis</p></div>
+      <img src="chicago2.jpg" className="chicago"/>
     </div>
   );
 }
